@@ -1,0 +1,45 @@
+$$Prog3
+PROGRAM prog3;
+VAR INT32_t  aaaaaaaa, aaaaaaa2, bbbbbbbb, xxxxxxxx, ccccccc1, ccccccc2;
+START
+READ  aaaaaaaa;
+READ  bbbbbbbb;
+FOR  aaaaaaa2<== aaaaaaaa TO  bbbbbbbb DO
+	WRITE  aaaaaaa2 MUL  aaaaaaa2;
+
+FOR  aaaaaaa2<== bbbbbbbb TO  aaaaaaaa DO
+	WRITE  aaaaaaa2 MUL  aaaaaaa2;
+
+ xxxxxxxx<==0;
+ ccccccc1<==0;
+WHILE  ccccccc1 LE  aaaaaaaa 
+START
+	 ccccccc2<==0;
+	WHILE  ccccccc2 LE  bbbbbbbb
+	START	
+		 xxxxxxxx<== xxxxxxxx ADD 1;
+		 ccccccc2<== ccccccc2 ADD 1;
+	FINISH
+	END WHILE
+ ccccccc1<== ccccccc1 ADD 1;
+FINISH	
+END WHILE
+WRITE  xxxxxxxx;
+
+ xxxxxxxx<==0;
+ ccccccc1<==1;
+REPEAT
+START
+   ccccccc2<==1;
+  REPEAT
+  START
+     xxxxxxxx<== xxxxxxxx ADD 1;
+     ccccccc2<== ccccccc2 ADD 1;
+	FINISH
+  UNTIL !( ccccccc2 GE  bbbbbbbb)
+   ccccccc1<== ccccccc1 ADD 1;
+ FINISH
+UNTIL !( ccccccc1 GE  aaaaaaaa)
+WRITE  xxxxxxxx;
+
+FINISH

@@ -1,0 +1,67 @@
+|-- program
+|    |-- var
+|    |    |-- yyyyyyyy
+|    |    |-- var
+|    |    |    |-- xxxxxxxx
+|    |    |    |-- var
+|    |    |    |    |-- bbbbbbbb
+|    |    |    |    |-- var
+|    |    |    |    |    |-- aaaaaaaa
+|    |-- statement
+|    |    |-- statement
+|    |    |    |-- statement
+|    |    |    |    |-- statement
+|    |    |    |    |    |-- statement
+|    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |    |    |    |    |-- +
+|    |    |    |    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |    |    |    |-- -
+|    |    |    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |    |    |-- *
+|    |    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |    |-- /
+|    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |-- %
+|    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |-- <==
+|    |    |    |    |    |    |-- xxxxxxxx
+|    |    |    |    |    |    |-- +
+|    |    |    |    |    |    |    |-- *
+|    |    |    |    |    |    |    |    |-- -
+|    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |    |-- 10
+|    |    |    |    |    |    |    |-- /
+|    |    |    |    |    |    |    |    |-- +
+|    |    |    |    |    |    |    |    |    |-- aaaaaaaa
+|    |    |    |    |    |    |    |    |    |-- bbbbbbbb
+|    |    |    |    |    |    |    |    |-- 10
+|    |    |    |    |-- <==
+|    |    |    |    |    |-- yyyyyyyy
+|    |    |    |    |    |-- +
+|    |    |    |    |    |    |-- xxxxxxxx
+|    |    |    |    |    |    |-- %
+|    |    |    |    |    |    |    |-- xxxxxxxx
+|    |    |    |    |    |    |    |-- 10
+|    |    |    |-- output
+|    |    |    |    |-- xxxxxxxx
+|    |    |-- output
+|    |    |    |-- yyyyyyyy

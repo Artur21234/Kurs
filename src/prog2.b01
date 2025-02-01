@@ -1,0 +1,57 @@
+$$Prog2
+PROGRAM prog2;
+VAR INT32_t  aaaaaaaa, bbbbbbbb, cccccccc;
+START
+READ  aaaaaaaa;
+READ  bbbbbbbb;
+READ  cccccccc;
+IF( aaaaaaaa GE  bbbbbbbb)
+START
+	IF( aaaaaaaa GE  cccccccc)
+	START
+		GOTO Abigger;		
+	FINISH
+	ELSE
+	START
+		WRITE  cccccccc;
+		GOTO OutofIF;
+		Abigger:		
+		WRITE  aaaaaaaa;
+		GOTO OutofIF;
+	FINISH
+FINISH	
+IF( bbbbbbbb LE  cccccccc)
+START
+	WRITE  cccccccc;
+FINISH	
+ELSE
+START
+	WRITE  bbbbbbbb;
+FINISH
+OutofIF:	
+
+IF(( aaaaaaaa =  bbbbbbbb) & ( aaaaaaaa =  cccccccc) & ( bbbbbbbb =  cccccccc))
+START
+	WRITE 1;
+FINISH	
+ELSE
+START
+	WRITE 0;
+FINISH
+IF(( aaaaaaaa LE 0) | ( bbbbbbbb LE 0) | ( cccccccc LE 0))
+START
+	WRITE -1;
+FINISH	
+ELSE
+START
+	WRITE 0;
+FINISH
+IF(!( aaaaaaaa LE ( bbbbbbbb ADD  cccccccc)))
+START
+	WRITE(10);
+FINISH	
+ELSE
+START
+	WRITE(0);
+FINISH
+FINISH

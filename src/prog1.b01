@@ -1,0 +1,17 @@
+$$Prog1
+PROGRAM prog1;
+VAR INT32_t  aaaaaaaa, bbbbbbbb, xxxxxxxx, yyyyyyyy;
+START
+READ  aaaaaaaa;
+READ  bbbbbbbb;
+WRITE  aaaaaaaa ADD  bbbbbbbb;
+WRITE  aaaaaaaa SUB  bbbbbbbb;
+WRITE  aaaaaaaa MUL  bbbbbbbb;
+WRITE  aaaaaaaa DIV  bbbbbbbb;
+WRITE  aaaaaaaa MOD  bbbbbbbb;
+
+ xxxxxxxx<==( aaaaaaaa SUB  bbbbbbbb) MUL 10 ADD ( aaaaaaaa ADD  bbbbbbbb) DIV 10;
+ yyyyyyyy<== xxxxxxxx ADD ( xxxxxxxx MOD 10);
+WRITE  xxxxxxxx;
+WRITE  yyyyyyyy;
+FINISH
